@@ -1,0 +1,27 @@
+nav{
+    background-color:gray;
+    width:200px;
+    color:white;
+    padding:12px;
+}
+
+ol{
+    padding:12px;
+    margin:0px;
+}
+
+ol:hover{
+    background-color:black;
+}
+
+a{
+    color:white;
+    display:block; //기본이 inline이라, block으로 바꿔주면 nav영역 전체가 클릭가능해짐
+}
+a:visited{
+    color:white;
+}
+
+#mycanvas{
+    border:1px solid black;
+}
